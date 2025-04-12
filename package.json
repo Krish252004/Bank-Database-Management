@@ -1,0 +1,29 @@
+{
+    "name": "bank-management-system",
+    "version": "1.0.0",
+    "description": "A comprehensive bank management system",
+    "main": "index.js",
+    "scripts": {
+      "start": "concurrently \"npm run server\" \"npm run client\"",
+      "server": "cd backend && node server.js",
+      "client": "cd frontend && npm start",
+      "install-all": "npm install && cd frontend && npm install",
+      "build": "cd frontend && npm run build",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+      "bcrypt": "^5.1.0",
+      "body-parser": "^1.20.2",
+      "concurrently": "^7.6.0",
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.3",
+      "express": "^4.18.2",
+      "jsonwebtoken": "^9.0.0",
+      "mysql2": "^3.2.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.22"
+    }
+  }
+  
+  
