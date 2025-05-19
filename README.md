@@ -1,4 +1,3 @@
-# Bank Database Management System
 # Bharat Bank Management System
 
 The Bharat Bank Management System is a full-stack web application designed to replicate real-world banking operations through a clean, modular, and scalable software architecture. It provides separate dashboards for customers and employees, allowing them to securely interact with account, transaction, and loan data in real-time.
@@ -74,26 +73,40 @@ Data flows securely through API endpoints exposed by the backend and consumed by
 - MySQL Server
 - Git
 
-### Step 1: Clone the Repository
+### STEP 1: Clone the Repository
+-- Clone the repository and move into the project directory
+
 ```bash
 git clone https://github.com/your-username/bharat-bank-management.git
 cd bharat-bank-management
+```
 
-### Step 2: Setup Backend
+### STEP 2: Setup Backend
+-- Navigate to the backend folder, install dependencies and start the server
+
+```bash
 cd backend
 npm install
 node server.js
+```
 
-### Step 3: Set Up the Frontend
+### STEP 3: Set Up the Frontend
+-- Navigate to the frontend folder, install dependencies and start the React app
+
+```bash
 cd ../frontend
 npm install
 npm start
+```
 
+### Project Structure
+
+```
 bharat-bank-management/
-├── backend/     -> Express.js server, API, DB models and controllers
-├── frontend/    -> React.js client with modular views and routing
-├── database/    -> SQL scripts for schema creation and seeding
-
+├── backend/   -> Express.js server, API, DB models and controllers
+├── frontend/  -> React.js client with modular views and routing
+└── database/  -> SQL scripts for schema creation and seeding
+```
 
 
 
